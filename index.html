@@ -3,9 +3,51 @@
 <head>
   <meta charset="utf-8">
   <title>HyprJack</title>
+  <meta name="description" content="HyprJack is an on-chain blackjack game played on Telegram.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+  <style type="text/css">
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Roboto', sans-serif;
+      background-color: #06C8A1;
+    }
+    .main {
+      max-width: 1000px;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 10px;
+    }
+    .logo {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+    }
+    .subtitle {
+      margin-top: 50px;
+      color: white;
+      text-align: right;
+      font-size: 20px;
+    }
+    @media (max-width: 600px) {
+      .subtitle {
+        margin-top: 10px;
+        font-size: 12px;
+      }
+    }
+  </style>
 </head>
 <body>
-  <h1>HyprJack</h1>
-  <h3>Coming soon</h3>
+  <div class="main">
+    <div><img class="logo" src="logo.svg"></div>
+    <div class="subtitle">Coming Soon</div>
+  </div>
 </body>
 </html>
